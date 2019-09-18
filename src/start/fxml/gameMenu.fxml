@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER_LEFT" minHeight="300.0" minWidth="400.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="start.controllers.GameMenuController">
+   <children>
+      <Button fx:id="mainMenuButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Main Menu">
+         <VBox.margin>
+            <Insets bottom="20.0" left="40.0" right="40.0" top="60.0" />
+         </VBox.margin>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="upgradeMenuButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Upgrade Menu">
+         <VBox.margin>
+            <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
+         </VBox.margin>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="saveGameButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Save Game">
+         <VBox.margin>
+            <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
+         </VBox.margin>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <AnchorPane prefHeight="43.0" prefWidth="507.0">
+         <children>
+            <Button fx:id="loadGameButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Load Game">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="backButton" layoutX="168.0" layoutY="1.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Back" AnchorPane.rightAnchor="100.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="20.0" left="40.0" top="20.0" />
+         </VBox.margin>
+      </AnchorPane>
+      <HBox prefHeight="43.0" prefWidth="552.0">
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+   <padding>
+      <Insets left="100.0" />
+   </padding>
+</VBox>
